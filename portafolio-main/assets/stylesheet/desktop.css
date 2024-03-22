@@ -1,0 +1,212 @@
+/* Header */
+
+.header {
+    justify-content: space-between;
+    padding: .8rem 3rem;
+    z-index: 2;
+}
+.containerVaris{
+    justify-content: center;
+}
+nav.nav_menu {
+    display: flex;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 20px;
+  }
+  td{
+    background-color: #ddd;
+  }
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(77, 69, 63);
+    color: white;
+    font-size: 20px;
+  }
+nav.nav_menu a {
+    font-size: 1.6rem;
+    padding: .5rem;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    text-decoration: none;
+    letter-spacing: .2rem;
+    right: 0;
+    margin-right: 2.5rem;
+}
+
+nav.nav_menu a:hover,
+nav.nav_menu a.active {
+    color: var(--beaver);
+    padding: .5rem;
+    border-bottom: 1px solid var(--beaver);
+    transition: all .5s;
+}
+
+nav.nav_menu.not-active a {
+    display: flex;
+}
+
+nav.nav_menu.not-active .flags {
+    display: flex;
+    width: 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav_menu.not-active .flags__item {
+    filter: contrast(65%);
+    cursor: pointer;
+}
+
+nav.nav_menu.not-active .flags__item img {
+    width: 3rem;
+    display: block;
+}
+
+div.btn {
+    display: none;
+}
+
+
+/* Hobbies*/
+
+.Hobbies {
+    padding-bottom: 4rem;
+}
+
+.Hobbies h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container_content-Hobbies {
+    flex-direction: row-reverse;
+}
+
+.container_texto-Hobbies {
+    width: 70%;
+    padding: 0 5% 0 3rem;
+    font-size: 20px;
+}
+
+.title_Hobbies {
+    text-align: start;
+    font-size: 2.8rem;
+    letter-spacing: .3rem;
+}
+
+.texto_Hobbies {
+    text-align: start;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2.8rem;
+}
+/* Libros*/
+
+.Libros {
+    padding-bottom: 4rem;
+}
+
+.Libros h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container_content-Libros {
+    flex-direction: row-reverse;
+
+}
+
+.container_texto-Libros {
+    width: 70%;
+    padding: 0 5% 0 3rem;
+    font-size: 20px;
+}
+
+.title_Libros {
+    text-align: start;
+    font-size: 2.8rem;
+    letter-spacing: .3rem;
+}
+
+.texto_Libros {
+    text-align: start;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 2.8rem;
+}
+/* Sobre Mí */
+
+.sobreMi {
+    padding-bottom: 4rem;
+}
+
+.sobreMi h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.container_content-sobreMi {
+    flex-direction: row-reverse;
+}
+
+.container_texto-sobreMi {
+    width: 70%;
+    padding: 0 5% 0 3rem;
+}
+
+.title_sobreMi {
+    text-align: start;
+    font-size: 2.8rem;
+    letter-spacing: .3rem;
+}
+
+.texto_sobreMi {
+    text-align: start;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 2.8rem;
+}
+
+.containerUbi{
+    padding: 12px;
+}
+
+/* Contacto */
+
+.contacto h1 {
+    padding: 8rem 0 2.5rem 0;
+    font-size: 3rem;
+}
+
+.container_box--contacto {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_img--contacto {
+    display: inline-block;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container_img--contacto img {
+    width: 50rem;
+    object-fit: contain;
+}
+
+.container--contacto {
+    width: 50%;
+    margin: 0;
+    padding: 4rem 3rem;
+}

@@ -1,0 +1,121 @@
+/* Header */
+
+nav.nav_menu.active {
+    width: 50%;
+    margin-left: 50%;
+    top: 5.9rem;
+}
+
+/* Hobbies*/
+
+
+.Hobbies {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_content-Hobbies {
+    background-color: #A28A79;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_texto-Hobbies {
+    padding: 4rem;
+}
+
+.title_Hobbies {
+    font-size: 3rem;
+    color: aliceblue;
+}
+#list{
+    color: aliceblue;
+}
+
+.texto_Hobbies {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.container_image-Hobbies {
+    width: 65%;
+    margin-top: 2rem;
+}
+
+/* Libros*/
+
+#listD{
+    color: aliceblue;
+}
+
+.Libros {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_content-Libros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_texto-Libros {
+    padding: 4rem;
+}
+
+.title_Libros {
+    font-size: 3rem;
+    color: aliceblue;
+}
+#list{
+    color: aliceblue;
+}
+
+.texto_Libros {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.container_image-Libros {
+    width: 65%;
+    margin-top: 2rem;
+}
+
+/* Sobre mi */
+
+.sobreMi {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_content-sobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_texto-sobreMi {
+    padding: 4rem;
+}
+
+.title_sobreMi {
+    font-size: 3rem;
+}
+
+.texto_sobreMi {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.container_image-sobreMi {
+    width: 65%;
+    margin-top: 2rem;
+}
+

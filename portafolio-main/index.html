@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+
+    <title>Naomy</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>       
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <h1  class="logo__header">NAOMY</h1>
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#Hobbies" data-section="menu" data-value="item3">Hobbies</a>
+            <a href="#Libros" data-section="menu" data-value="item4">libros favoritos</a>
+            <a href="#Contenido_audio" data-section="menu" data-value="item4">Audio</a>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Naomy Restrepo</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy Naomy Restrepo, tengo 27 años, actualmente vivo en Medellín, me gusta y disfruto del tiempo conmigo misma, así mismo disfruto de viajar, hacer ejercicio, ir al cine, jugar videojuegos, pintar al óleo, hacer montañismo, la naturaleza y los animales en general. 
+Disfruto de la meditación guiada, actualmente estoy en clases de meditación y yoga, a continuación, me gustaría compartirles un video del maestro Lama Richen; quien es uno de mis mentores. <a href="Contenido_video" data-section="menu" data-value="item9">link video</a>, luego de una crisis ansiosa, descubrí el mundo de la meditación, lo cual me ha ayudado hacer una introspección y autoconciencia de mi salud emocional y entre otras cosas a nivel personal.
+Me gradué del bachillerato a los 15 años, luego empecé a estudiar pedagogía infantil, lo cual terminé y solo ejercí durante tres años, “no fue lo mío”. He vivido en Cali, Bogotá, Sincelejo y actualmente llevo 6 años en Medellín, me gustaría compartirles uno de mis lugares favoritos en esta hermosa ciudad. 
+El Jardín Botánico es un lugar bastante agradable, leer un libro, respirar aire puro, estar entre la naturaleza, escuchar las aves y maravillarme con los hermosos paisajes me hace olvidar la vida rutinaria de la ciudad. 
+Soy una persona bastante visionista, por tanto, actualmente estoy en tercer semestre de ing de Software en la universidad iberoamericana de Bogotá, donde me entere de este Bootcamp, y aquí me tienen, compartiendo con todos ustedes. 
+</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/fotomia-2.jpg" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+            <!-- Listas desordenadas Hobbies -->
+            
+
+        <section class="Hobbies" id="Hobbies">
+            <div class="container_content-Hobbies" data-aos="fade-right">
+                <div class="container_texto-Hobbies">
+                    <span class="title_Hobbies">Hobbies</span>
+                    <ul id="list">
+                        <li>Hacer montañismo</li>
+                        <li>Cinema</li>
+                        <li>videojuegos</li>
+                        <li>Pintar al oleo</li>
+                        <li>leer</li>
+                        <li>Armar figuras de lego</li>
+                        
+                      </ul>
+                </div>
+    
+                <picture class="container_image-Hobbies">
+                    <img class="image_Hobbies" src="./assets/images/Hobbies.jpg">
+                </picture>
+            </div>
+        </section>
+        
+
+          <!-- Listas ordenadas Libros -->
+          <section class="Libros" id="Libros">
+            <div class="container_content-Libros" data-aos="fade-right">
+                <div class="container_texto-Libros">
+                    <span class="title_Libros">Libros</span>
+                    <ol id="listD">
+                        <li>El amor, las mujeres y la muerte- Arthur Schopenhauer</li>
+                        <li>El secreto - Rhonda Byrne.</li>
+                        <li>Ama tu soledad - Borja Vilaseca</li>
+                        <li>Los dos nobles caballeros -John Fletcher & Shakespeare</li>
+                        
+                      </ol>
+                </div>
+        
+    
+                <picture class="container_image-Libros">
+                    <img class="image_Libros" src="./assets/images/biblioteca.avif">
+                </picture>
+            </div>
+        </section>
+        
+      
+     
+      
+    </div>
+</section>
+        </section>
+
+
+    <section class="Hobbies" id="Hobbies">
+           
+        <h1>Libros </h1>
+
+        <table id="customers">
+          <tr>
+            <th>Arthur Schopenhauer</th>
+            <th>Rhonda Byrne</th>
+        
+          </tr>
+          <tr>
+            <td>El amor, las mujeres y la muerte</td>
+            <td>El secreto</td>
+           
+          </tr>
+          <tr>
+            <td>El mundo como voluntad y representacion</td>
+            <td>El poder</td>
+          </tr>
+         
+          
+        </table>
+   </section>
+</div>
+        
+<!--multimedia-->
+        <section id="Contenido_audio">
+            <div class="container">
+                <h2>Leo Rizzi</h2>
+                <div class="programas">
+                    <div class="carta">
+                        <iframe style="border-radius:18px" src="https://open.spotify.com/embed/track/40ExE9fNxufDieKrvw0UDr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div class="container"> 
+                </div>
+            </div>
+        </section>
+
+    <section id="Contenido_video">
+     <div class="containerVaris"></div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2fY88hHQj5s?si=p0wmkOoR0RMSIbOZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.948683426469!2d-75.5661395255209!3d6.270479226052952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428e80e411f91%3A0x142ab912fdb68353!2zSmFyZMOtbiBCb3TDoW5pY28gZGUgTWVkZWxsw61u!5e0!3m2!1ses-419!2sco!4v1711052923405!5m2!1ses-419!2sco" 
+        width="400" height="300"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+    </div>
+
+
+    
+    </section>
+
+    
+    
+  </body>
+</html>
+        
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+        
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                
+                </a>
+                <a href="https://github.com/Naomy97?tab=followers" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                
+                <a href="https://www.instagram.com/naomyrestrepo?igsh=MWN1a2p4d3F5dTQzYg%3D%3D&utm_source=qr" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
